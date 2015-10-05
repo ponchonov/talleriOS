@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface StudentDetailViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UILabel *studentName;
+@property (nonatomic, weak) IBOutlet UILabel *studentNote;
+@property (nonatomic, strong) NSMutableDictionary *dictStudent;
 
+-(IBAction)incrementStudentNote:(id)sender;
 @end

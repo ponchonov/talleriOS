@@ -13,15 +13,20 @@
 @end
 
 @implementation StudentDetailViewController
-
+@synthesize studentNote, studentName, dictStudent;
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    studentName.text = [dictStudent objectForKey:@"name"];
+    // Do any additional setup after loading the view.                                                          }
 }
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)viewDidAppear:(BOOL)animated
+{
+    NSLog(@"viewDidAppear: %@", dictStudent);
 }
 
 /*
@@ -34,4 +39,8 @@
 }
 */
 
+-(void)incrementStudentNote:(id)sender
+{
+    
+}
 @end
