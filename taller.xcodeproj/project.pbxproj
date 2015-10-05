@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		972F97011BC2B8A30063FCEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 972F97001BC2B8A30063FCEB /* main.m */; };
+		972F97041BC2B8A30063FCEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 972F97031BC2B8A30063FCEB /* AppDelegate.m */; };
+		972F97071BC2B8A30063FCEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 972F97061BC2B8A30063FCEB /* ViewController.m */; };
+		972F970A1BC2B8A30063FCEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 972F97081BC2B8A30063FCEB /* Main.storyboard */; };
+		972F970C1BC2B8A30063FCEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 972F970B1BC2B8A30063FCEB /* Assets.xcassets */; };
+		972F970F1BC2B8A30063FCEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 972F970D1BC2B8A30063FCEB /* LaunchScreen.storyboard */; };
+		972F971A1BC2B8A30063FCEB /* tallerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 972F97191BC2B8A30063FCEB /* tallerTests.m */; };
+		972F97251BC2B8A30063FCEB /* tallerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 972F97241BC2B8A30063FCEB /* tallerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		972F97161BC2B8A30063FCEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 972F96F41BC2B8A30063FCEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 972F96FB1BC2B8A30063FCEB;
+			remoteInfo = taller;
+		};
+		972F97211BC2B8A30063FCEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 972F96F41BC2B8A30063FCEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 972F96FB1BC2B8A30063FCEB;
+			remoteInfo = taller;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		972F96FC1BC2B8A30063FCEB /* taller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		972F97001BC2B8A30063FCEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		972F97021BC2B8A30063FCEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		972F97031BC2B8A30063FCEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		972F97051BC2B8A30063FCEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		972F97061BC2B8A30063FCEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		972F97091BC2B8A30063FCEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		972F970B1BC2B8A30063FCEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		972F970E1BC2B8A30063FCEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		972F97101BC2B8A30063FCEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		972F97151BC2B8A30063FCEB /* tallerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tallerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		972F97191BC2B8A30063FCEB /* tallerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tallerTests.m; sourceTree = "<group>"; };
+		972F971B1BC2B8A30063FCEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		972F97201BC2B8A30063FCEB /* tallerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tallerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		972F97241BC2B8A30063FCEB /* tallerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tallerUITests.m; sourceTree = "<group>"; };
+		972F97261BC2B8A30063FCEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		972F96F91BC2B8A30063FCEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		972F97121BC2B8A30063FCEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		972F971D1BC2B8A30063FCEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		972F96F31BC2B8A30063FCEB = {
+			isa = PBXGroup;
+			children = (
+				972F96FE1BC2B8A30063FCEB /* taller */,
+				972F97181BC2B8A30063FCEB /* tallerTests */,
+				972F97231BC2B8A30063FCEB /* tallerUITests */,
+				972F96FD1BC2B8A30063FCEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		972F96FD1BC2B8A30063FCEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				972F96FC1BC2B8A30063FCEB /* taller.app */,
+				972F97151BC2B8A30063FCEB /* tallerTests.xctest */,
+				972F97201BC2B8A30063FCEB /* tallerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		972F96FE1BC2B8A30063FCEB /* taller */ = {
+			isa = PBXGroup;
+			children = (
+				972F97021BC2B8A30063FCEB /* AppDelegate.h */,
+				972F97031BC2B8A30063FCEB /* AppDelegate.m */,
+				972F97051BC2B8A30063FCEB /* ViewController.h */,
+				972F97061BC2B8A30063FCEB /* ViewController.m */,
+				972F97081BC2B8A30063FCEB /* Main.storyboard */,
+				972F970B1BC2B8A30063FCEB /* Assets.xcassets */,
+				972F970D1BC2B8A30063FCEB /* LaunchScreen.storyboard */,
+				972F97101BC2B8A30063FCEB /* Info.plist */,
+				972F96FF1BC2B8A30063FCEB /* Supporting Files */,
+			);
+			path = taller;
+			sourceTree = "<group>";
+		};
+		972F96FF1BC2B8A30063FCEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				972F97001BC2B8A30063FCEB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		972F97181BC2B8A30063FCEB /* tallerTests */ = {
+			isa = PBXGroup;
+			children = (
+				972F97191BC2B8A30063FCEB /* tallerTests.m */,
+				972F971B1BC2B8A30063FCEB /* Info.plist */,
+			);
+			path = tallerTests;
+			sourceTree = "<group>";
+		};
+		972F97231BC2B8A30063FCEB /* tallerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				972F97241BC2B8A30063FCEB /* tallerUITests.m */,
+				972F97261BC2B8A30063FCEB /* Info.plist */,
+			);
+			path = tallerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		972F96FB1BC2B8A30063FCEB /* taller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 972F97291BC2B8A30063FCEB /* Build configuration list for PBXNativeTarget "taller" */;
+			buildPhases = (
+				972F96F81BC2B8A30063FCEB /* Sources */,
+				972F96F91BC2B8A30063FCEB /* Frameworks */,
+				972F96FA1BC2B8A30063FCEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = taller;
+			productName = taller;
+			productReference = 972F96FC1BC2B8A30063FCEB /* taller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		972F97141BC2B8A30063FCEB /* tallerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 972F972C1BC2B8A30063FCEB /* Build configuration list for PBXNativeTarget "tallerTests" */;
+			buildPhases = (
+				972F97111BC2B8A30063FCEB /* Sources */,
+				972F97121BC2B8A30063FCEB /* Frameworks */,
+				972F97131BC2B8A30063FCEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				972F97171BC2B8A30063FCEB /* PBXTargetDependency */,
+			);
+			name = tallerTests;
+			productName = tallerTests;
+			productReference = 972F97151BC2B8A30063FCEB /* tallerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		972F971F1BC2B8A30063FCEB /* tallerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 972F972F1BC2B8A30063FCEB /* Build configuration list for PBXNativeTarget "tallerUITests" */;
+			buildPhases = (
+				972F971C1BC2B8A30063FCEB /* Sources */,
+				972F971D1BC2B8A30063FCEB /* Frameworks */,
+				972F971E1BC2B8A30063FCEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				972F97221BC2B8A30063FCEB /* PBXTargetDependency */,
+			);
+			name = tallerUITests;
+			productName = tallerUITests;
+			productReference = 972F97201BC2B8A30063FCEB /* tallerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		972F96F41BC2B8A30063FCEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = birghtCoders;
+				TargetAttributes = {
+					972F96FB1BC2B8A30063FCEB = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					972F97141BC2B8A30063FCEB = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 972F96FB1BC2B8A30063FCEB;
+					};
+					972F971F1BC2B8A30063FCEB = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 972F96FB1BC2B8A30063FCEB;
+					};
+				};
+			};
+			buildConfigurationList = 972F96F71BC2B8A30063FCEB /* Build configuration list for PBXProject "taller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 972F96F31BC2B8A30063FCEB;
+			productRefGroup = 972F96FD1BC2B8A30063FCEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				972F96FB1BC2B8A30063FCEB /* taller */,
+				972F97141BC2B8A30063FCEB /* tallerTests */,
+				972F971F1BC2B8A30063FCEB /* tallerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		972F96FA1BC2B8A30063FCEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				972F970F1BC2B8A30063FCEB /* LaunchScreen.storyboard in Resources */,
+				972F970C1BC2B8A30063FCEB /* Assets.xcassets in Resources */,
+				972F970A1BC2B8A30063FCEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		972F97131BC2B8A30063FCEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		972F971E1BC2B8A30063FCEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		972F96F81BC2B8A30063FCEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				972F97071BC2B8A30063FCEB /* ViewController.m in Sources */,
+				972F97041BC2B8A30063FCEB /* AppDelegate.m in Sources */,
+				972F97011BC2B8A30063FCEB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		972F97111BC2B8A30063FCEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				972F971A1BC2B8A30063FCEB /* tallerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		972F971C1BC2B8A30063FCEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				972F97251BC2B8A30063FCEB /* tallerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		972F97171BC2B8A30063FCEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 972F96FB1BC2B8A30063FCEB /* taller */;
+			targetProxy = 972F97161BC2B8A30063FCEB /* PBXContainerItemProxy */;
+		};
+		972F97221BC2B8A30063FCEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 972F96FB1BC2B8A30063FCEB /* taller */;
+			targetProxy = 972F97211BC2B8A30063FCEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		972F97081BC2B8A30063FCEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				972F97091BC2B8A30063FCEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		972F970D1BC2B8A30063FCEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				972F970E1BC2B8A30063FCEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		972F97271BC2B8A30063FCEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		972F97281BC2B8A30063FCEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		972F972A1BC2B8A30063FCEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = taller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HACM.taller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		972F972B1BC2B8A30063FCEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = taller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HACM.taller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		972F972D1BC2B8A30063FCEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tallerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HACM.tallerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/taller.app/taller";
+			};
+			name = Debug;
+		};
+		972F972E1BC2B8A30063FCEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tallerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HACM.tallerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/taller.app/taller";
+			};
+			name = Release;
+		};
+		972F97301BC2B8A30063FCEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tallerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HACM.tallerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = taller;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		972F97311BC2B8A30063FCEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tallerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HACM.tallerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = taller;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		972F96F71BC2B8A30063FCEB /* Build configuration list for PBXProject "taller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				972F97271BC2B8A30063FCEB /* Debug */,
+				972F97281BC2B8A30063FCEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		972F97291BC2B8A30063FCEB /* Build configuration list for PBXNativeTarget "taller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				972F972A1BC2B8A30063FCEB /* Debug */,
+				972F972B1BC2B8A30063FCEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		972F972C1BC2B8A30063FCEB /* Build configuration list for PBXNativeTarget "tallerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				972F972D1BC2B8A30063FCEB /* Debug */,
+				972F972E1BC2B8A30063FCEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		972F972F1BC2B8A30063FCEB /* Build configuration list for PBXNativeTarget "tallerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				972F97301BC2B8A30063FCEB /* Debug */,
+				972F97311BC2B8A30063FCEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 972F96F41BC2B8A30063FCEB /* Project object */;
+}
