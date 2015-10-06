@@ -16,6 +16,7 @@
 		972F971A1BC2B8A30063FCEB /* tallerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 972F97191BC2B8A30063FCEB /* tallerTests.m */; };
 		972F97251BC2B8A30063FCEB /* tallerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 972F97241BC2B8A30063FCEB /* tallerUITests.m */; };
 		972F97341BC2F0C70063FCEB /* StudentDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 972F97331BC2F0C70063FCEB /* StudentDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C8C163221BC385C30051D102 /* RESTManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C163211BC385C30051D102 /* RESTManager.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		972F97261BC2B8A30063FCEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		972F97321BC2F0C70063FCEB /* StudentDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentDetailViewController.h; sourceTree = "<group>"; };
 		972F97331BC2F0C70063FCEB /* StudentDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentDetailViewController.m; sourceTree = "<group>"; };
+		C8C163201BC385C30051D102 /* RESTManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESTManager.h; sourceTree = "<group>"; };
+		C8C163211BC385C30051D102 /* RESTManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESTManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,7 @@
 		972F96FE1BC2B8A30063FCEB /* taller */ = {
 			isa = PBXGroup;
 			children = (
+				C8C1631F1BC385A40051D102 /* Managers */,
 				972F97021BC2B8A30063FCEB /* AppDelegate.h */,
 				972F97031BC2B8A30063FCEB /* AppDelegate.m */,
 				972F97051BC2B8A30063FCEB /* ViewController.h */,
@@ -143,6 +147,15 @@
 				972F97261BC2B8A30063FCEB /* Info.plist */,
 			);
 			path = tallerUITests;
+			sourceTree = "<group>";
+		};
+		C8C1631F1BC385A40051D102 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				C8C163201BC385C30051D102 /* RESTManager.h */,
+				C8C163211BC385C30051D102 /* RESTManager.m */,
+			);
+			name = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +290,7 @@
 			files = (
 				972F97071BC2B8A30063FCEB /* ViewController.m in Sources */,
 				972F97341BC2F0C70063FCEB /* StudentDetailViewController.m in Sources */,
+				C8C163221BC385C30051D102 /* RESTManager.m in Sources */,
 				972F97041BC2B8A30063FCEB /* AppDelegate.m in Sources */,
 				972F97011BC2B8A30063FCEB /* main.m in Sources */,
 			);
@@ -502,6 +516,7 @@
 				972F972B1BC2B8A30063FCEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		972F972C1BC2B8A30063FCEB /* Build configuration list for PBXNativeTarget "tallerTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +525,7 @@
 				972F972E1BC2B8A30063FCEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		972F972F1BC2B8A30063FCEB /* Build configuration list for PBXNativeTarget "tallerUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +534,7 @@
 				972F97311BC2B8A30063FCEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
