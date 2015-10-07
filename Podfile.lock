@@ -1,10 +1,13 @@
 PODS:
+  - GoogleMaps (1.10.3)
   - SHEmailValidator (1.0.3)
 
 DEPENDENCIES:
+  - GoogleMaps (~> 1.10)
   - SHEmailValidator (~> 1.0)
 
 SPEC CHECKSUMS:
+  GoogleMaps: 945e4ac3b74bcca3ddada51df256eb7beddb474d
   SHEmailValidator: a32815b360bd862d44170883b3b088d8fb7a39e0
 
 COCOAPODS: 0.39.0.beta.4

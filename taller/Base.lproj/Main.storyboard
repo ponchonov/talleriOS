@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="6ZB-pw-cVM">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,20 +18,29 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="igj-Ho-iiE">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <rect key="frame" x="0.0" y="280" width="600" height="320"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wZU-3R-qnb" customClass="GMSMapView">
+                                <rect key="frame" x="0.0" y="64" width="600" height="216"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="wZU-3R-qnb" firstAttribute="bottom" secondItem="igj-Ho-iiE" secondAttribute="bottom" constant="-320" id="1gI-sZ-WbE"/>
                             <constraint firstItem="igj-Ho-iiE" firstAttribute="leading" secondItem="O8e-1i-eWK" secondAttribute="leading" id="8dV-o4-au8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="wZU-3R-qnb" secondAttribute="trailing" constant="-20" id="M96-RL-52d"/>
                             <constraint firstItem="0hY-xH-TaN" firstAttribute="top" secondItem="igj-Ho-iiE" secondAttribute="bottom" id="dWW-0l-gOY"/>
-                            <constraint firstItem="igj-Ho-iiE" firstAttribute="top" secondItem="O8e-1i-eWK" secondAttribute="top" id="vym-iG-rCZ"/>
+                            <constraint firstItem="wZU-3R-qnb" firstAttribute="top" secondItem="UrN-nW-KxZ" secondAttribute="bottom" id="rV7-h9-MP0"/>
+                            <constraint firstItem="wZU-3R-qnb" firstAttribute="leading" secondItem="O8e-1i-eWK" secondAttribute="leadingMargin" constant="-20" id="vjZ-cR-WcX"/>
+                            <constraint firstItem="igj-Ho-iiE" firstAttribute="top" secondItem="O8e-1i-eWK" secondAttribute="top" constant="280" id="vym-iG-rCZ"/>
                             <constraint firstAttribute="trailing" secondItem="igj-Ho-iiE" secondAttribute="trailing" id="vys-Il-TsN"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="HcE-FF-6D7"/>
                     <connections>
+                        <outlet property="gMap" destination="wZU-3R-qnb" id="fAW-gf-ziD"/>
                         <outlet property="tblStudents" destination="igj-Ho-iiE" id="eyH-aw-m5i"/>
                         <segue destination="BYZ-38-t0r" kind="push" identifier="doShowDetail" id="OJi-PO-RrG"/>
                     </connections>

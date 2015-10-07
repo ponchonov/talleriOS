@@ -14,16 +14,36 @@
 @end
 
 @implementation ViewController
-@synthesize arrStudents,tblStudents, indexSelected;
+@synthesize arrStudents,tblStudents, indexSelected,gMap,locationManager;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-    //arrStudents = @[@{@"name": @"Hector Cuevas", @"score": @"90"},@{@"name": @"Omar Guzmán",@"score": @"80"}, @{@"name": @"Efrain Quintero",@"score": @"80"}, @{@"name": @"Luis Angel Felix",@"score": @"78"},@{@"name": @"Brando Pulido",@"score": @"100"},@{@"name": @"Abel Torres",@"score": @"80"},@{@"name": @"David Magaña",@"score": @"80"},@{@"name": @"Nivaldo Quiñones",@"score": @"89"},@{@"name": @"Aarón Barreto",@"score": @"87"},@{@"name": @"Lucio Morán",@"score": @"78"},@{@"name": @"David Romero",@"score": @"83"}];
     tblStudents.dataSource = self;
     tblStudents.delegate = self;
-    //[tblStudents reloadData];
+    gMap.settings.myLocationButton =YES;
+    gMap.delegate=self;
+    
+    locationManager = [[CLLocationManager alloc] init];
+    locationManager.delegate = self;
+    locationManager.distanceFilter = kCLDistanceFilterNone;
+    locationManager.desiredAccuracy = kCLLocationAccuracyBest;
+    if ([self.locationManager respondsToSelector:@selector(requestWhenInUseAuthorization)])
+        [locationManager requestWhenInUseAuthorization];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [locationManager startUpdatingLocation];
+    });
     [self doCallStudents];
+}
+#pragma mark -- CLLocationDelegate
+-(void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations
+{
+    [locationManager stopUpdatingLocation];
+    CLLocation *currentLocation = [locations objectAtIndex:0];
+    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:currentLocation.coordinate.latitude
+                                                            longitude:currentLocation.coordinate.longitude                                                                         zoom:16];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [gMap animateToCameraPosition:camera];
+    });
 }
 
 -(void)doCallStudents
@@ -34,7 +54,7 @@
         [tblStudents reloadData];
     }];
 }
-
+#pragma mark tableView Delegate
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return arrStudents.count;

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '72A68C11633964B6717529D7'
+               BlueprintIdentifier = '6FE26D0D9CE97E678AEE1660'
                BlueprintName = 'SHEmailValidator'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libSHEmailValidator.a'>

@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#define kGMApiKey @"AIzaSyCQ-ywVI2DpAON1RQsA9bE07tYS-e3gDlo"
+
 @interface AppDelegate ()
 
 @end
@@ -18,6 +20,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     //testing git for this repo
+    [GMSServices provideAPIKey:kGMApiKey];
     return YES;
 }
 

@@ -7,89 +7,91 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1371F247C0B4FC94565553A51DE3A365 /* SHAutocorrectSuggestionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CCBE365644E46A7E59DEE2C7AC238B9 /* SHAutocorrectSuggestionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		306441F4EA7CE7B4D3722A8DC33A4289 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A4EB6B65427F9331F5F797663515D0E /* Foundation.framework */; };
-		371C1D8B25739096B24923E1FF2F50E7 /* SHAutocorrectSuggestionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 902CCA6D9E3B03FF5FB3871456F259C2 /* SHAutocorrectSuggestionView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		3BE2889B866E91566F2C7D126C4EF3C4 /* SHEmailValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = E2A101F841AA83522FB5EA0F4E3D860E /* SHEmailValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52041C1480D5EF27BCF3F58930E39CF2 /* SHValidationResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 17137EA0313FAF83DFC63AFF01B8C442 /* SHValidationResult.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		5E32086393C0A422AB3E288D6605F49C /* NSString+LevenshteinDistance.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F25AC5AF3AA3657CBE0B2BC2501F3DD /* NSString+LevenshteinDistance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0306FC96A4CD2375C57EB51D5B190AF9 /* SHEmailValidationTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 739C47DD63BC50DA2903898BB90A4CEF /* SHEmailValidationTextField.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		06A767415D2B46E32307372C6946DF8D /* SHEmailValidationTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 416A76FA4ED788481F452E8E07055182 /* SHEmailValidationTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2788DB80283EF04C8B28CD5B692212E7 /* NSString+LevenshteinDistance.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED25B657306CAFFBBE04F0108BC0033 /* NSString+LevenshteinDistance.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		306441F4EA7CE7B4D3722A8DC33A4289 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C26D1F88018E6813E03AA2343ED8A53F /* Foundation.framework */; };
+		34EBE9416C5049C6949F6A06308E2696 /* SHValidationResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A86E4B786F2264CF624A548E037B86E /* SHValidationResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		62D296E290397E0A39CD1D75EC5FB7DC /* Pods-tallerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A6871BF951B0275D83708DD91520C1 /* Pods-tallerUITests-dummy.m */; };
-		6AC095AD6EC914C227CCEE9677E6411A /* SHEmailValidationTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 85A55FA98694F70550C420AC5CB32EE8 /* SHEmailValidationTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6DBE91223FF56D4A74A9764D913F18BC /* Pods-tallerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D811A8AEFA3120F5CBE3B9D05A9AF22 /* Pods-tallerTests-dummy.m */; };
-		705E274BF28A95F77825E68E80006DB1 /* SHValidationResult.h in Headers */ = {isa = PBXBuildFile; fileRef = A6C46127FD58536EF315E73CB3D2A031 /* SHValidationResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91AAA0550045F5BEAB5BA6A389992E12 /* SHEmailValidator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE94690742FAE99520F0913308E06FB /* SHEmailValidator-dummy.m */; };
-		A1F62D0DED4A756F774ABA8CB6517F76 /* SHEmailValidationTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 17EF66627FCEE390F6F61EFB878E0F68 /* SHEmailValidationTextField.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8CBBC6F02208E7C2C7CCB88EA37247C2 /* SHAutocorrectSuggestionView.h in Headers */ = {isa = PBXBuildFile; fileRef = BB75CC7E759DB10F3228AD69134B4CA3 /* SHAutocorrectSuggestionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3647C625270FF3F7044639F96323595 /* SHEmailValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = B57539FF7985C226140E140DBA265483 /* SHEmailValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B42908629531CF45F05C0A0D5F3D9F6A /* Pods-taller-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C01478B93CF330591CB40E14612BC0D1 /* Pods-taller-dummy.m */; };
-		B5E372CFDE27B1ABA2842C74DA6742D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A4EB6B65427F9331F5F797663515D0E /* Foundation.framework */; };
-		C24C51511BB713D1F909998D445CA89E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A4EB6B65427F9331F5F797663515D0E /* Foundation.framework */; };
-		D60453FC4265DB9A03CE7475C586BC9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A4EB6B65427F9331F5F797663515D0E /* Foundation.framework */; };
-		E75EA8837F342AFC5DEF792A234F863B /* SHEmailValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D524431CF8B59A273095734A7B05A2 /* SHEmailValidator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		F2A631D1CE433F0AF7D87C00C143E9D2 /* NSString+LevenshteinDistance.m in Sources */ = {isa = PBXBuildFile; fileRef = 9196E821BA051DC504EED4C864899D0C /* NSString+LevenshteinDistance.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BE8749AA752D84805153CB33AEC15227 /* SHAutocorrectSuggestionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D01B3E03EE2DAD853ABF6EFF1EB257A /* SHAutocorrectSuggestionView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C24C51511BB713D1F909998D445CA89E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C26D1F88018E6813E03AA2343ED8A53F /* Foundation.framework */; };
+		C97A3814F9FB6D77405DBD2694DE32C2 /* SHEmailValidator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6560C26D60B60B4D64097FE6C78DBDC3 /* SHEmailValidator-dummy.m */; };
+		D05C8BF74C277D3A9B12DE6E87756A57 /* NSString+LevenshteinDistance.h in Headers */ = {isa = PBXBuildFile; fileRef = 900BF6F2FF1E506089C146A94619B4C4 /* NSString+LevenshteinDistance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D60453FC4265DB9A03CE7475C586BC9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C26D1F88018E6813E03AA2343ED8A53F /* Foundation.framework */; };
+		D65FD1595A0527B8317CD19BEF072371 /* SHEmailValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E2B7EAB03727B5D49BAC2CA3264D29 /* SHEmailValidator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E7BD9097C1A6FB4B931445ED225116E8 /* SHValidationResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D08C471D9232AE5859190DC507D3A6 /* SHValidationResult.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F9547EE7D7EB98F9AB3B0EAF411C298B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C26D1F88018E6813E03AA2343ED8A53F /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6AF46CD5AEC3CD14DB7CD6DDA09931AB /* PBXContainerItemProxy */ = {
+		0045DE3041405A579B6A0B0B5FA62D9A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F9AE26B03EF6482276D8BF02C87FCB09;
+			remoteGlobalIDString = C96985589A20CE2EDDB3DCCB07674C52;
 			remoteInfo = SHEmailValidator;
 		};
-		F77EB77F13A1A7AB6839570115D40263 /* PBXContainerItemProxy */ = {
+		11B4C1531E12EED8314C8F53E90780DE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F9AE26B03EF6482276D8BF02C87FCB09;
+			remoteGlobalIDString = C96985589A20CE2EDDB3DCCB07674C52;
 			remoteInfo = SHEmailValidator;
 		};
-		FAB335027F2235BB1062EDA3F9CF7223 /* PBXContainerItemProxy */ = {
+		C7C49F907FD245774096D7B6EBD60382 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F9AE26B03EF6482276D8BF02C87FCB09;
+			remoteGlobalIDString = C96985589A20CE2EDDB3DCCB07674C52;
 			remoteInfo = SHEmailValidator;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05F68FB28E1DB8A4990ADE207F5A1726 /* SHEmailValidator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHEmailValidator.xcconfig; sourceTree = "<group>"; };
 		0890C8384D9AAE282AEC48ED96D11CA0 /* Pods-taller-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-taller-frameworks.sh"; sourceTree = "<group>"; };
-		0FE94690742FAE99520F0913308E06FB /* SHEmailValidator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SHEmailValidator-dummy.m"; sourceTree = "<group>"; };
-		17137EA0313FAF83DFC63AFF01B8C442 /* SHValidationResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHValidationResult.m; path = SHEmailValidator/SHValidationResult.m; sourceTree = "<group>"; };
-		17EF66627FCEE390F6F61EFB878E0F68 /* SHEmailValidationTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHEmailValidationTextField.m; path = SHEmailValidator/SHEmailValidationTextField.m; sourceTree = "<group>"; };
+		23E886A1D32D3DB47B08862A51F17168 /* libSHEmailValidator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSHEmailValidator.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		28D3094B687A2E51FFFF08B1AA38D9BD /* libPods-tallerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tallerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2971BD85499DACDCC23194E878D0AD26 /* Pods-taller-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-taller-resources.sh"; sourceTree = "<group>"; };
-		2A4EB6B65427F9331F5F797663515D0E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		2C5C548C14A35B14787369E8A868F9A9 /* Pods-tallerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tallerTests.debug.xcconfig"; sourceTree = "<group>"; };
-		323C1D3A2EA9EBF7F07F436B632D346B /* SHEmailValidator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHEmailValidator-prefix.pch"; sourceTree = "<group>"; };
+		2ED25B657306CAFFBBE04F0108BC0033 /* NSString+LevenshteinDistance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+LevenshteinDistance.m"; path = "SHEmailValidator/NSString+LevenshteinDistance.m"; sourceTree = "<group>"; };
 		3BF6AC0B2D87BB3B28FB4D99717F1C0B /* Pods-tallerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tallerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		416A76FA4ED788481F452E8E07055182 /* SHEmailValidationTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHEmailValidationTextField.h; path = SHEmailValidator/SHEmailValidationTextField.h; sourceTree = "<group>"; };
+		4A86E4B786F2264CF624A548E037B86E /* SHValidationResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHValidationResult.h; path = SHEmailValidator/SHValidationResult.h; sourceTree = "<group>"; };
 		4EA47D058A060AE8B3306CC1946E0D88 /* Pods-tallerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tallerTests-frameworks.sh"; sourceTree = "<group>"; };
-		50CC374272990C64F4A382CD1DBA1566 /* libSHEmailValidator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSHEmailValidator.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		589AF4D6A8BD1B4C05735440F8D683CE /* SHEmailValidator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHEmailValidator.xcconfig; sourceTree = "<group>"; };
 		58CB8E1508F237BCA7C48F079A6F1C6E /* libPods-tallerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tallerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59E2B7EAB03727B5D49BAC2CA3264D29 /* SHEmailValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHEmailValidator.m; path = SHEmailValidator/SHEmailValidator.m; sourceTree = "<group>"; };
+		5D01B3E03EE2DAD853ABF6EFF1EB257A /* SHAutocorrectSuggestionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHAutocorrectSuggestionView.m; path = SHEmailValidator/SHAutocorrectSuggestionView.m; sourceTree = "<group>"; };
 		5FEE11E283840F00515C46B743B2D7B4 /* Pods-tallerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tallerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		61D524431CF8B59A273095734A7B05A2 /* SHEmailValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHEmailValidator.m; path = SHEmailValidator/SHEmailValidator.m; sourceTree = "<group>"; };
-		6CCBE365644E46A7E59DEE2C7AC238B9 /* SHAutocorrectSuggestionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHAutocorrectSuggestionView.h; path = SHEmailValidator/SHAutocorrectSuggestionView.h; sourceTree = "<group>"; };
+		62D08C471D9232AE5859190DC507D3A6 /* SHValidationResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHValidationResult.m; path = SHEmailValidator/SHValidationResult.m; sourceTree = "<group>"; };
+		6560C26D60B60B4D64097FE6C78DBDC3 /* SHEmailValidator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SHEmailValidator-dummy.m"; sourceTree = "<group>"; };
+		67229DB294DA7CD0120A3DDDC4B60273 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		739C47DD63BC50DA2903898BB90A4CEF /* SHEmailValidationTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHEmailValidationTextField.m; path = SHEmailValidator/SHEmailValidationTextField.m; sourceTree = "<group>"; };
 		7ADEA144B343632AD4D6108054B03CA3 /* Pods-taller-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-taller-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7E5463E0C6187694C62A37FA1BDC3750 /* Pods-taller-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-taller-acknowledgements.plist"; sourceTree = "<group>"; };
-		7F25AC5AF3AA3657CBE0B2BC2501F3DD /* NSString+LevenshteinDistance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+LevenshteinDistance.h"; path = "SHEmailValidator/NSString+LevenshteinDistance.h"; sourceTree = "<group>"; };
-		85A55FA98694F70550C420AC5CB32EE8 /* SHEmailValidationTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHEmailValidationTextField.h; path = SHEmailValidator/SHEmailValidationTextField.h; sourceTree = "<group>"; };
 		8F0897A50CC49B2088261C3027D2470E /* Pods-tallerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tallerUITests-frameworks.sh"; sourceTree = "<group>"; };
-		902CCA6D9E3B03FF5FB3871456F259C2 /* SHAutocorrectSuggestionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHAutocorrectSuggestionView.m; path = SHEmailValidator/SHAutocorrectSuggestionView.m; sourceTree = "<group>"; };
+		900BF6F2FF1E506089C146A94619B4C4 /* NSString+LevenshteinDistance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+LevenshteinDistance.h"; path = "SHEmailValidator/NSString+LevenshteinDistance.h"; sourceTree = "<group>"; };
 		91926A22353EB7950E6AECB9466809A8 /* libPods-taller.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-taller.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9196E821BA051DC504EED4C864899D0C /* NSString+LevenshteinDistance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+LevenshteinDistance.m"; path = "SHEmailValidator/NSString+LevenshteinDistance.m"; sourceTree = "<group>"; };
 		9D811A8AEFA3120F5CBE3B9D05A9AF22 /* Pods-tallerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tallerTests-dummy.m"; sourceTree = "<group>"; };
-		A6C46127FD58536EF315E73CB3D2A031 /* SHValidationResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHValidationResult.h; path = SHEmailValidator/SHValidationResult.h; sourceTree = "<group>"; };
+		A3C680604C46B92678E4200FA712BF0B /* SHEmailValidator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHEmailValidator-prefix.pch"; sourceTree = "<group>"; };
 		A86510743240EFCA9ED723E2FBFD9EAC /* Pods-tallerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tallerTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B11DD3A959EE2D4C6FEF71719E13729E /* Pods-tallerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tallerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B57539FF7985C226140E140DBA265483 /* SHEmailValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHEmailValidator.h; path = SHEmailValidator/SHEmailValidator.h; sourceTree = "<group>"; };
 		B5A6871BF951B0275D83708DD91520C1 /* Pods-tallerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tallerUITests-dummy.m"; sourceTree = "<group>"; };
 		B9475BC74BCB7A1855B5750AF4B281BC /* Pods-tallerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tallerTests.release.xcconfig"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB75CC7E759DB10F3228AD69134B4CA3 /* SHAutocorrectSuggestionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHAutocorrectSuggestionView.h; path = SHEmailValidator/SHAutocorrectSuggestionView.h; sourceTree = "<group>"; };
 		BECFA18D0B0D4EC8E2569E7C0927F1BF /* Pods-tallerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tallerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C01478B93CF330591CB40E14612BC0D1 /* Pods-taller-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-taller-dummy.m"; sourceTree = "<group>"; };
+		C26D1F88018E6813E03AA2343ED8A53F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CA5E8F7050F86CB275FC577910F11663 /* Pods-taller.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-taller.debug.xcconfig"; sourceTree = "<group>"; };
 		CCD70AA3268B8BC5BD02537850489095 /* Pods-taller.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-taller.release.xcconfig"; sourceTree = "<group>"; };
+		DEC8A8741B9E656994DF0937576F2E8A /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		E22E8DBF78290CA300476188C3694AEA /* Pods-tallerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tallerUITests.release.xcconfig"; sourceTree = "<group>"; };
-		E2A101F841AA83522FB5EA0F4E3D860E /* SHEmailValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHEmailValidator.h; path = SHEmailValidator/SHEmailValidator.h; sourceTree = "<group>"; };
 		F329F2B3563303555F03863E14EB2B14 /* Pods-tallerUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tallerUITests-resources.sh"; sourceTree = "<group>"; };
 		F5A36635CECD98FC43FD272A6EF34C45 /* Pods-tallerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tallerTests-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,11 +113,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ABEF0B7464FB8BCF77C848C001F111E5 /* Frameworks */ = {
+		C8CC9A709FD837F2978C975CBC287FD2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5E372CFDE27B1ABA2842C74DA6742D3 /* Foundation.framework in Frameworks */,
+				F9547EE7D7EB98F9AB3B0EAF411C298B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +150,7 @@
 		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				2A4EB6B65427F9331F5F797663515D0E /* Foundation.framework */,
+				C26D1F88018E6813E03AA2343ED8A53F /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -168,22 +170,23 @@
 			path = "Target Support Files/Pods-tallerUITests";
 			sourceTree = "<group>";
 		};
-		612DDA66E4E35961F3CE093243A18F27 /* SHEmailValidator */ = {
+		66026DABF3520A3061C84297C3DCAD0C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7F25AC5AF3AA3657CBE0B2BC2501F3DD /* NSString+LevenshteinDistance.h */,
-				9196E821BA051DC504EED4C864899D0C /* NSString+LevenshteinDistance.m */,
-				6CCBE365644E46A7E59DEE2C7AC238B9 /* SHAutocorrectSuggestionView.h */,
-				902CCA6D9E3B03FF5FB3871456F259C2 /* SHAutocorrectSuggestionView.m */,
-				85A55FA98694F70550C420AC5CB32EE8 /* SHEmailValidationTextField.h */,
-				17EF66627FCEE390F6F61EFB878E0F68 /* SHEmailValidationTextField.m */,
-				E2A101F841AA83522FB5EA0F4E3D860E /* SHEmailValidator.h */,
-				61D524431CF8B59A273095734A7B05A2 /* SHEmailValidator.m */,
-				A6C46127FD58536EF315E73CB3D2A031 /* SHValidationResult.h */,
-				17137EA0313FAF83DFC63AFF01B8C442 /* SHValidationResult.m */,
-				C4BD1050DB42BB8BE1DB9A87E7E2A877 /* Support Files */,
+				589AF4D6A8BD1B4C05735440F8D683CE /* SHEmailValidator.xcconfig */,
+				6560C26D60B60B4D64097FE6C78DBDC3 /* SHEmailValidator-dummy.m */,
+				A3C680604C46B92678E4200FA712BF0B /* SHEmailValidator-prefix.pch */,
 			);
-			path = SHEmailValidator;
+			name = "Support Files";
+			path = "../Target Support Files/SHEmailValidator";
+			sourceTree = "<group>";
+		};
+		744728722765FBB392FC2A4738DEBB3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67229DB294DA7CD0120A3DDDC4B60273 /* GoogleMaps.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -191,18 +194,28 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				8DA4A389F9C531E1940ED31D2CE256EC /* Pods */,
+				E3D8238E56C61125D720F98C112D0ECB /* Pods */,
 				A1415C8800806CD41EF1D656F0C6F052 /* Products */,
 				FA9EF556D217B2F8E05900BE4275689D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8DA4A389F9C531E1940ED31D2CE256EC /* Pods */ = {
+		872FC4398FC5B2B7F8DDEB74DC59D18B /* SHEmailValidator */ = {
 			isa = PBXGroup;
 			children = (
-				612DDA66E4E35961F3CE093243A18F27 /* SHEmailValidator */,
+				900BF6F2FF1E506089C146A94619B4C4 /* NSString+LevenshteinDistance.h */,
+				2ED25B657306CAFFBBE04F0108BC0033 /* NSString+LevenshteinDistance.m */,
+				BB75CC7E759DB10F3228AD69134B4CA3 /* SHAutocorrectSuggestionView.h */,
+				5D01B3E03EE2DAD853ABF6EFF1EB257A /* SHAutocorrectSuggestionView.m */,
+				416A76FA4ED788481F452E8E07055182 /* SHEmailValidationTextField.h */,
+				739C47DD63BC50DA2903898BB90A4CEF /* SHEmailValidationTextField.m */,
+				B57539FF7985C226140E140DBA265483 /* SHEmailValidator.h */,
+				59E2B7EAB03727B5D49BAC2CA3264D29 /* SHEmailValidator.m */,
+				4A86E4B786F2264CF624A548E037B86E /* SHValidationResult.h */,
+				62D08C471D9232AE5859190DC507D3A6 /* SHValidationResult.m */,
+				66026DABF3520A3061C84297C3DCAD0C /* Support Files */,
 			);
-			name = Pods;
+			path = SHEmailValidator;
 			sourceTree = "<group>";
 		};
 		9E6234E557055F9EE7AEC1652215EC10 /* Pods-taller */ = {
@@ -226,7 +239,7 @@
 				91926A22353EB7950E6AECB9466809A8 /* libPods-taller.a */,
 				58CB8E1508F237BCA7C48F079A6F1C6E /* libPods-tallerTests.a */,
 				28D3094B687A2E51FFFF08B1AA38D9BD /* libPods-tallerUITests.a */,
-				50CC374272990C64F4A382CD1DBA1566 /* libSHEmailValidator.a */,
+				23E886A1D32D3DB47B08862A51F17168 /* libSHEmailValidator.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -239,15 +252,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C4BD1050DB42BB8BE1DB9A87E7E2A877 /* Support Files */ = {
+		C64625350FA2253FD3EC4D3B48153C97 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				05F68FB28E1DB8A4990ADE207F5A1726 /* SHEmailValidator.xcconfig */,
-				0FE94690742FAE99520F0913308E06FB /* SHEmailValidator-dummy.m */,
-				323C1D3A2EA9EBF7F07F436B632D346B /* SHEmailValidator-prefix.pch */,
+				DEC8A8741B9E656994DF0937576F2E8A /* GoogleMaps.bundle */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SHEmailValidator";
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E3D8238E56C61125D720F98C112D0ECB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F28D95CB8365366BE35A6E0A3DDBBD9F /* GoogleMaps */,
+				872FC4398FC5B2B7F8DDEB74DC59D18B /* SHEmailValidator */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F28D95CB8365366BE35A6E0A3DDBBD9F /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				744728722765FBB392FC2A4738DEBB3F /* Frameworks */,
+				C64625350FA2253FD3EC4D3B48153C97 /* Resources */,
+			);
+			path = GoogleMaps;
 			sourceTree = "<group>";
 		};
 		FA9EF556D217B2F8E05900BE4275689D /* Targets Support Files */ = {
@@ -263,15 +291,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3AFDDF0AFD3EC34FF9B474367FDA04A7 /* Headers */ = {
+		F58952DA399DB0C3F745729149AE4A73 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E32086393C0A422AB3E288D6605F49C /* NSString+LevenshteinDistance.h in Headers */,
-				1371F247C0B4FC94565553A51DE3A365 /* SHAutocorrectSuggestionView.h in Headers */,
-				6AC095AD6EC914C227CCEE9677E6411A /* SHEmailValidationTextField.h in Headers */,
-				3BE2889B866E91566F2C7D126C4EF3C4 /* SHEmailValidator.h in Headers */,
-				705E274BF28A95F77825E68E80006DB1 /* SHValidationResult.h in Headers */,
+				D05C8BF74C277D3A9B12DE6E87756A57 /* NSString+LevenshteinDistance.h in Headers */,
+				8CBBC6F02208E7C2C7CCB88EA37247C2 /* SHAutocorrectSuggestionView.h in Headers */,
+				06A767415D2B46E32307372C6946DF8D /* SHEmailValidationTextField.h in Headers */,
+				B3647C625270FF3F7044639F96323595 /* SHEmailValidator.h in Headers */,
+				34EBE9416C5049C6949F6A06308E2696 /* SHValidationResult.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +316,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				83562C6BC74FC3FF2316D9B840DA77D2 /* PBXTargetDependency */,
+				92EA70A27120FF9867764EE15FC84954 /* PBXTargetDependency */,
 			);
 			name = "Pods-taller";
 			productName = "Pods-taller";
@@ -305,7 +333,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				3C8531D703A2FF2A5774C1D212DD29C0 /* PBXTargetDependency */,
+				FE65D0A8A2406766E35FEA11029DE988 /* PBXTargetDependency */,
 			);
 			name = "Pods-tallerUITests";
 			productName = "Pods-tallerUITests";
@@ -322,20 +350,20 @@
 			buildRules = (
 			);
 			dependencies = (
-				F4834C181D16AD3553BEA575398F1594 /* PBXTargetDependency */,
+				76D4AD43C5024FB74F04EDB30B804BEB /* PBXTargetDependency */,
 			);
 			name = "Pods-tallerTests";
 			productName = "Pods-tallerTests";
 			productReference = 58CB8E1508F237BCA7C48F079A6F1C6E /* libPods-tallerTests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		F9AE26B03EF6482276D8BF02C87FCB09 /* SHEmailValidator */ = {
+		C96985589A20CE2EDDB3DCCB07674C52 /* SHEmailValidator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1E050DF3DE14D043ADFC80189596D16B /* Build configuration list for PBXNativeTarget "SHEmailValidator" */;
+			buildConfigurationList = 78FC672B9FC99CA10100E15221FC7B5B /* Build configuration list for PBXNativeTarget "SHEmailValidator" */;
 			buildPhases = (
-				457A6641CB72C45C96105DFF7D37411A /* Sources */,
-				ABEF0B7464FB8BCF77C848C001F111E5 /* Frameworks */,
-				3AFDDF0AFD3EC34FF9B474367FDA04A7 /* Headers */,
+				36CE315942C4FD6EACE68A2475008B6D /* Sources */,
+				C8CC9A709FD837F2978C975CBC287FD2 /* Frameworks */,
+				F58952DA399DB0C3F745729149AE4A73 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -343,7 +371,7 @@
 			);
 			name = SHEmailValidator;
 			productName = SHEmailValidator;
-			productReference = 50CC374272990C64F4A382CD1DBA1566 /* libSHEmailValidator.a */;
+			productReference = 23E886A1D32D3DB47B08862A51F17168 /* libSHEmailValidator.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -370,22 +398,22 @@
 				10EDFCFC58D00F25E04CBEDDFE51E8E5 /* Pods-taller */,
 				4B924AA2DABCA46724E1F171CC0DB8B5 /* Pods-tallerTests */,
 				1361B15F2E2D005073701F92AD305213 /* Pods-tallerUITests */,
-				F9AE26B03EF6482276D8BF02C87FCB09 /* SHEmailValidator */,
+				C96985589A20CE2EDDB3DCCB07674C52 /* SHEmailValidator */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		457A6641CB72C45C96105DFF7D37411A /* Sources */ = {
+		36CE315942C4FD6EACE68A2475008B6D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2A631D1CE433F0AF7D87C00C143E9D2 /* NSString+LevenshteinDistance.m in Sources */,
-				371C1D8B25739096B24923E1FF2F50E7 /* SHAutocorrectSuggestionView.m in Sources */,
-				A1F62D0DED4A756F774ABA8CB6517F76 /* SHEmailValidationTextField.m in Sources */,
-				91AAA0550045F5BEAB5BA6A389992E12 /* SHEmailValidator-dummy.m in Sources */,
-				E75EA8837F342AFC5DEF792A234F863B /* SHEmailValidator.m in Sources */,
-				52041C1480D5EF27BCF3F58930E39CF2 /* SHValidationResult.m in Sources */,
+				2788DB80283EF04C8B28CD5B692212E7 /* NSString+LevenshteinDistance.m in Sources */,
+				BE8749AA752D84805153CB33AEC15227 /* SHAutocorrectSuggestionView.m in Sources */,
+				0306FC96A4CD2375C57EB51D5B190AF9 /* SHEmailValidationTextField.m in Sources */,
+				C97A3814F9FB6D77405DBD2694DE32C2 /* SHEmailValidator-dummy.m in Sources */,
+				D65FD1595A0527B8317CD19BEF072371 /* SHEmailValidator.m in Sources */,
+				E7BD9097C1A6FB4B931445ED225116E8 /* SHValidationResult.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,43 +444,27 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3C8531D703A2FF2A5774C1D212DD29C0 /* PBXTargetDependency */ = {
+		76D4AD43C5024FB74F04EDB30B804BEB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SHEmailValidator;
-			target = F9AE26B03EF6482276D8BF02C87FCB09 /* SHEmailValidator */;
-			targetProxy = 6AF46CD5AEC3CD14DB7CD6DDA09931AB /* PBXContainerItemProxy */;
+			target = C96985589A20CE2EDDB3DCCB07674C52 /* SHEmailValidator */;
+			targetProxy = 0045DE3041405A579B6A0B0B5FA62D9A /* PBXContainerItemProxy */;
 		};
-		83562C6BC74FC3FF2316D9B840DA77D2 /* PBXTargetDependency */ = {
+		92EA70A27120FF9867764EE15FC84954 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SHEmailValidator;
-			target = F9AE26B03EF6482276D8BF02C87FCB09 /* SHEmailValidator */;
-			targetProxy = F77EB77F13A1A7AB6839570115D40263 /* PBXContainerItemProxy */;
+			target = C96985589A20CE2EDDB3DCCB07674C52 /* SHEmailValidator */;
+			targetProxy = 11B4C1531E12EED8314C8F53E90780DE /* PBXContainerItemProxy */;
 		};
-		F4834C181D16AD3553BEA575398F1594 /* PBXTargetDependency */ = {
+		FE65D0A8A2406766E35FEA11029DE988 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SHEmailValidator;
-			target = F9AE26B03EF6482276D8BF02C87FCB09 /* SHEmailValidator */;
-			targetProxy = FAB335027F2235BB1062EDA3F9CF7223 /* PBXContainerItemProxy */;
+			target = C96985589A20CE2EDDB3DCCB07674C52 /* SHEmailValidator */;
+			targetProxy = C7C49F907FD245774096D7B6EBD60382 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1DE531D1A7CCC431E3BAACBA93B006CC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05F68FB28E1DB8A4990ADE207F5A1726 /* SHEmailValidator.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SHEmailValidator/SHEmailValidator-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
 		372F09C9D1B2A21F7F7736C209E8AA3B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E22E8DBF78290CA300476188C3694AEA /* Pods-tallerUITests.release.xcconfig */;
@@ -574,9 +586,25 @@
 			};
 			name = Release;
 		};
-		78C466BACD3DF34FF6BA996F0CA5F0AC /* Release */ = {
+		97CF3911D5EC4C58CDDC29696E482B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05F68FB28E1DB8A4990ADE207F5A1726 /* SHEmailValidator.xcconfig */;
+			baseConfigurationReference = 589AF4D6A8BD1B4C05735440F8D683CE /* SHEmailValidator.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SHEmailValidator/SHEmailValidator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A5D483F098C8AE5FF03701CB580F46CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 589AF4D6A8BD1B4C05735440F8D683CE /* SHEmailValidator.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/SHEmailValidator/SHEmailValidator-prefix.pch";
@@ -641,15 +669,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1E050DF3DE14D043ADFC80189596D16B /* Build configuration list for PBXNativeTarget "SHEmailValidator" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1DE531D1A7CCC431E3BAACBA93B006CC /* Debug */,
-				78C466BACD3DF34FF6BA996F0CA5F0AC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2887400F8CC463217AA1F2448318533B /* Build configuration list for PBXNativeTarget "Pods-taller" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -673,6 +692,15 @@
 			buildConfigurations = (
 				553996A17876296C0B306E132DC75F69 /* Debug */,
 				FC679994D47FA29104B13468E1B4D86D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78FC672B9FC99CA10100E15221FC7B5B /* Build configuration list for PBXNativeTarget "SHEmailValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97CF3911D5EC4C58CDDC29696E482B9A /* Debug */,
+				A5D483F098C8AE5FF03701CB580F46CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
