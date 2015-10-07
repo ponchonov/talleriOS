@@ -1,0 +1,10 @@
+PODS:
+  - SHEmailValidator (1.0.3)
+
+DEPENDENCIES:
+  - SHEmailValidator (~> 1.0)
+
+SPEC CHECKSUMS:
+  SHEmailValidator: a32815b360bd862d44170883b3b088d8fb7a39e0
+
+COCOAPODS: 0.39.0.beta.4

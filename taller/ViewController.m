@@ -19,17 +19,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    arrStudents = @[@{@"name": @"Hector Cuevas", @"score": @"90"},@{@"name": @"Omar Guzmán",@"score": @"80"}, @{@"name": @"Efrain Quintero",@"score": @"80"}, @{@"name": @"Luis Angel Felix",@"score": @"78"},@{@"name": @"Brando Pulido",@"score": @"100"},@{@"name": @"Abel Torres",@"score": @"80"},@{@"name": @"David Magaña",@"score": @"80"},@{@"name": @"Nivaldo Quiñones",@"score": @"89"},@{@"name": @"Aarón Barreto",@"score": @"87"},@{@"name": @"Lucio Morán",@"score": @"78"},@{@"name": @"David Romero",@"score": @"83"}];
+    //arrStudents = @[@{@"name": @"Hector Cuevas", @"score": @"90"},@{@"name": @"Omar Guzmán",@"score": @"80"}, @{@"name": @"Efrain Quintero",@"score": @"80"}, @{@"name": @"Luis Angel Felix",@"score": @"78"},@{@"name": @"Brando Pulido",@"score": @"100"},@{@"name": @"Abel Torres",@"score": @"80"},@{@"name": @"David Magaña",@"score": @"80"},@{@"name": @"Nivaldo Quiñones",@"score": @"89"},@{@"name": @"Aarón Barreto",@"score": @"87"},@{@"name": @"Lucio Morán",@"score": @"78"},@{@"name": @"David Romero",@"score": @"83"}];
     tblStudents.dataSource = self;
     tblStudents.delegate = self;
+    //[tblStudents reloadData];
     [self doCallStudents];
-    [tblStudents reloadData];
 }
 
 -(void)doCallStudents
 {
     [RESTManager sendData:nil toService:@"getStudents" withMethod:@"GET" toCallback:^(id result) {
         NSLog(@"result: %@", result);
+        arrStudents = [NSArray arrayWithArray:[result objectForKey:@"students"]];
+        [tblStudents reloadData];
     }];
 }
 

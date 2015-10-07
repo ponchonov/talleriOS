@@ -28,7 +28,7 @@
     {
         /// Create a JSON data variable.
         NSData *jsonData = [NSJSONSerialization dataWithJSONObject:data options:kNilOptions error:nil];
-        [request setValue:[NSString stringWithFormat:@"%ld", [jsonData length]] forHTTPHeaderField:@"Content-Length"];
+        [request setValue:[NSString stringWithFormat:@"%ud", [jsonData length]] forHTTPHeaderField:@"Content-Length"];
         [request setHTTPBody:jsonData];
     }
     
@@ -39,7 +39,7 @@
     [request setValue:@"json" forHTTPHeaderField:@"Data-Type"];
     /// Send the request.
     [NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *error) {
-        NSHTTPURLResponse *httpResponse = (NSHTTPURLResponse *)response;
+        //NSHTTPURLResponse *httpResponse = (NSHTTPURLResponse *)response;
         if(!error && response != nil)
         {
             /// Create a dictionary based on the JSON of the response.

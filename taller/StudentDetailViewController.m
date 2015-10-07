@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     studentName.text = [dictStudent objectForKey:@"name"];
+    studentNote.text = [dictStudent objectForKey:@"score"];
     // Do any additional setup after loading the view.                                                          }
 }
 - (void)didReceiveMemoryWarning {
@@ -41,6 +42,12 @@
 
 -(void)incrementStudentNote:(id)sender
 {
-    
+    if([studentNote.text intValue]<100)
+    {
+        studentNote.text = [NSString stringWithFormat:@"%d",[studentNote.text intValue]+1];
+        if ([studentNote.text intValue]==100)
+            ((UIButton *) sender).enabled = NO;
+        
+    }
 }
 @end
